@@ -1,0 +1,28 @@
+{
+  "identifier" : "Notch",
+  "nonRenewingSubscriptions" : [],
+  "products" : [
+    {
+      "displayPrice" : "3.99",
+      "familyShareable" : false,
+      "internalID" : "notch_pro",
+      "localizations" : [
+        {
+          "description" : "Notch Pro unlocks Automatic board-footage and material cost calculator",
+          "displayName" : "Notch Pro",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.shimondeitel.woodcutlog.pro",
+      "referenceName" : "Notch Pro",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+  },
+  "subscriptionGroups" : [],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
