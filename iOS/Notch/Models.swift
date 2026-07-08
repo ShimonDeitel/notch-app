@@ -11,17 +11,7 @@ struct CutEntry: Identifiable, Codable, Equatable {
     var cost: Double
     var notes: String
 
-    init(
-        id: UUID = UUID(),
-        createdAt: Date = Date(),
-        project: String = "",
-        boardName: String = "",
-        lengthIn: Double = 0,
-        widthIn: Double = 0,
-        thicknessIn: Double = 0,
-        cost: Double = 0,
-        notes: String = ""
-    ) {
+    init(id: UUID = UUID(), createdAt: Date = Date(), project: String = "", boardName: String = "", lengthIn: Double = 0, widthIn: Double = 0, thicknessIn: Double = 0, cost: Double = 0, notes: String = "") {
         self.id = id
         self.createdAt = createdAt
         self.project = project
