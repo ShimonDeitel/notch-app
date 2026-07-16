@@ -1,9 +1,9 @@
 import SwiftUI
 
 enum Theme {
-    static let accent = Color(red: 0.47,0.30,0.16)
-    static let accent2 = Color(red: 0.75,0.55,0.20)
-    static let background = Color(red: 0.08,0.06,0.04)
+    static let accent = Color(red: 0.47, green: 0.30, blue: 0.16)
+    static let accent2 = Color(red: 0.75, green: 0.55, blue: 0.20)
+    static let background = Color(red: 0.08, green: 0.06, blue: 0.04)
 
     static let largeTitle = Font.system(.largeTitle, design: .serif).weight(.bold)
     static let headline = Font.system(.headline, design: .rounded)
